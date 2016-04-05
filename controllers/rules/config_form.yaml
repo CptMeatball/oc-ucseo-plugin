@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Rule
+
+# Model Form Field configuration
+form: $/unrebel/ucseo/models/rule/fields.yaml
+
+# Model Class name
+modelClass: Unrebel\Ucseo\Models\Rule
+
+# Default redirect location
+defaultRedirect: unrebel/ucseo/rules
+
+# Create page
+create:
+    title: Create Rule
+    redirect: unrebel/ucseo/rules/update/:id
+    redirectClose: unrebel/ucseo/rules
+
+# Update page
+update:
+    title: Edit Rule
+    redirect: unrebel/ucseo/rules
+    redirectClose: unrebel/ucseo/rules
+
+# Preview page
+preview:
+    title: Preview Rule

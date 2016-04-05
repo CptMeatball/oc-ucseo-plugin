@@ -1,0 +1,51 @@
+{% if seoPage.title %}
+<title> {{ seoPage.title }}</title>
+{% endif %}
+
+{% if seoPage.description %}
+<meta name="description" content="{{seoPage.description}}">
+{% endif %}
+
+{% if seoPage.og_title %}
+<meta property="og:title" content="{{seoPage.og_title}}" />
+{% endif %}
+
+{% if seoPage.og_description %}
+<meta property="og:description" content="{{seoPage.og_description}}" />
+{% endif %}
+
+{% if seoPage.og_type %}
+<meta property="og:type" content="{{seoPage.og_type}}" />
+{% endif %}
+
+{% for image in seoPage.og_images %}
+<meta property="og:image" content="{{image.path}}" />
+{% endfor %}
+
+{% for rule in seoPage.rules %}
+<meta property="{{rule.property}}" content="{{rule.content}}" />
+{% endfor %}
+
+{% if seoPage.twt_card %}
+<meta property="twitter:card" content="{{seoPage.twt_card}}" />
+{% endif %}
+
+{% if seoPage.twt_site %}
+<meta property="twitter:site" content="{{seoPage.twt_site}}" />
+{% endif %}
+
+{% if seoPage.twt_creator %}
+<meta property="twitter:creator" content="{{seoPage.twt_creator}}" />
+{% endif %}
+
+{% if seoPage.twt_title %}
+<meta property="twitter:title" content="{{seoPage.twt_title}}" />
+{% endif %}
+
+{% if seoPage.twt_description %}
+<meta property="twitter:description" content="{{seoPage.twt_description}}" />
+{% endif %}
+
+{% for image in seoPage.twt_images %}
+<meta name="twitter:image" content="{{image.path}}" />
+{% endfor %}

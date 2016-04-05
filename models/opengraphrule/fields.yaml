@@ -1,0 +1,10 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    property:
+        label: unrebel.ucseo::lang.fields.og_type
+        type: dropdown
+    content:
+        label: unrebel.ucseo::lang.fields.og_content

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Seo Page
+
+# Model Form Field configuration
+form: $/unrebel/ucseo/models/seopage/fields.yaml
+
+# Model Class name
+modelClass: Unrebel\Ucseo\Models\SeoPage
+
+# Default redirect location
+defaultRedirect: unrebel/ucseo/seopages
+
+# Create page
+create:
+    title: Create Seo Page
+    redirect: unrebel/ucseo/seopages/update/:id
+    redirectClose: unrebel/ucseo/seopages
+
+# Update page
+update:
+    title: Edit Seo Page
+    redirect: unrebel/ucseo/seopages
+    redirectClose: unrebel/ucseo/seopages
+
+# Preview page
+preview:
+    title: Preview Seo Page

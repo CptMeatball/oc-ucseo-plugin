@@ -1,0 +1,11 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    title:
+        label: unrebel.ucseo::lang.fields.title
+    url:
+        label: unrebel.ucseo::lang.fields.url
+    updated_at:
+        label: unrebel.ucseo::lang.fields.modified_at

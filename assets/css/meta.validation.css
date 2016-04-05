@@ -1,0 +1,31 @@
+.error {
+  color: #e74c3c;
+}
+
+.complete {
+  color: #2ecc71;
+}
+
+.incomplete {
+  color: #f39c12;
+}
+
+.optional {
+  color: #95a5a6;
+}
+
+.legend-title {
+  margin-right: 5px;
+}
+
+.legend-item {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.analysis {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 15px 0;
+  border: 1px solid #e0e0e0;
+}

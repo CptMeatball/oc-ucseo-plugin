@@ -1,0 +1,9 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    property:
+        label: unrebel.ucseo::lang.fields.og_property
+    type:
+        label: unrebel.ucseo::lang.fields.og_property_type

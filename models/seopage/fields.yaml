@@ -1,0 +1,144 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    title:
+        label: unrebel.ucseo::lang.fields.title
+        span: left
+    url:
+        label: unrebel.ucseo::lang.fields.url
+        span: right
+    description:
+        label: unrebel.ucseo::lang.fields.meta_description
+        tab: unrebel.ucseo::lang.tabs.meta
+        type: textarea
+        size: tiny
+tabs:
+    fields:
+        doc_og_title:
+            label: og:title
+            type: partial
+            path: $/unrebel/ucseo/models/seopage/docs/_og_title_field.htm
+            tab: unrebel.ucseo::lang.tabs.og
+            span: right
+        og_title:
+            label: unrebel.ucseo::lang.fields.og_title
+            tab: unrebel.ucseo::lang.tabs.og
+            span: left
+        doc_og_description:
+            label: og:description
+            type: partial
+            path: $/unrebel/ucseo/models/seopage/docs/_og_description_field.htm
+            tab: unrebel.ucseo::lang.tabs.og
+            span: right
+        og_description:
+            label: unrebel.ucseo::lang.fields.og_description
+            tab: unrebel.ucseo::lang.tabs.og
+            type: textarea
+            size: tiny
+            span: left
+        doc_og_image:
+            label: Documentation OG Image
+            tab: unrebel.ucseo::lang.tabs.og
+            type: partial
+            path: $/unrebel/ucseo/models/seopage/docs/_og_image_field.htm
+            span: right
+        og_images:
+            label: unrebel.ucseo::lang.fields.og_image
+            tab: unrebel.ucseo::lang.tabs.og
+            type: fileupload
+            mode: image
+            span: left
+        og_type:
+            label: unrebel.ucseo::lang.fields.og_type
+            tab: unrebel.ucseo::lang.tabs.og
+            type: dropdown
+            span: left
+        doc_og_type:
+            label: og:type
+            type: partial
+            path: $/unrebel/ucseo/models/seopage/docs/_og_type_field.htm
+            tab: unrebel.ucseo::lang.tabs.og
+            span: right
+        doc_rules:
+            label: name:space
+            type: partial
+            path: $/unrebel/ucseo/models/seopage/docs/_og_type_field.htm
+            tab: unrebel.ucseo::lang.tabs.og
+            span: right
+        rules:
+            label: unrebel.ucseo::lang.fields.og_rules
+            tab: unrebel.ucseo::lang.tabs.og
+            type: partial
+            path: $/unrebel/ucseo/models/seopage/_ogrules_field.htm
+            span: left
+        docs_twt_card:
+            label: twitter:card
+            tab: unrebel.ucseo::lang.tabs.twitter
+            type: partial
+            path: $/unrebel/ucseo/models/seopage/docs/_twt_card_field.htm
+            span: right
+        twt_card:
+            label: unrebel.ucseo::lang.fields.twt_card
+            tab: unrebel.ucseo::lang.tabs.twitter
+            type: dropdown
+            span: left
+        docs_twt_site:
+            label: twitter:site
+            tab: unrebel.ucseo::lang.tabs.twitter
+            type: partial
+            path: $/unrebel/ucseo/models/seopage/docs/_twt_site_field.htm
+            span: right
+        twt_site:
+            label: unrebel.ucseo::lang.fields.twt_site
+            tab: unrebel.ucseo::lang.tabs.twitter
+            span: left
+        docs_twt_creator:
+            label: twitter:creator
+            tab: unrebel.ucseo::lang.tabs.twitter
+            type: partial
+            path: $/unrebel/ucseo/models/seopage/docs/_twt_creator_field.htm
+            span: right
+        twt_creator:
+            label: unrebel.ucseo::lang.fields.twt_creator
+            tab: unrebel.ucseo::lang.tabs.twitter
+            span: left
+        docs_twt_title:
+            label: twitter:title
+            tab: unrebel.ucseo::lang.tabs.twitter
+            type: partial
+            path: $/unrebel/ucseo/models/seopage/docs/_twt_title_field.htm
+            span: right
+        twt_title:
+            label: unrebel.ucseo::lang.fields.twt_title
+            tab: unrebel.ucseo::lang.tabs.twitter
+            span: left
+        docs_twt_description:
+            label: twitter:description
+            tab: unrebel.ucseo::lang.tabs.twitter
+            type: partial
+            path: $/unrebel/ucseo/models/seopage/docs/_twt_description_field.htm
+            span: right
+        twt_description:
+            label: unrebel.ucseo::lang.fields.twt_description
+            tab: unrebel.ucseo::lang.tabs.twitter
+            span: left
+            type: textarea
+            size: tiny
+        docs_twt_images:
+            label: twitter:images
+            tab: unrebel.ucseo::lang.tabs.twitter
+            type: partial
+            path: $/unrebel/ucseo/models/seopage/docs/_twt_images_field.htm
+            span: right
+        twt_images:
+            label: unrebel.ucseo::lang.fields.twt_images
+            tab: unrebel.ucseo::lang.tabs.twitter
+            span: left
+            type: fileupload
+            mode: image
+        seo_analysis:
+            tab: unrebel.ucseo::lang.tabs.analysis
+            type: partial
+            path: $/unrebel/ucseo/models/seopage/analysis/_seo_analysis.htm

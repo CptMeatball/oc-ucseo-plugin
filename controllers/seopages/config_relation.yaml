@@ -1,0 +1,12 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+rules:
+    label: Rule
+    manage:
+        form: $/unrebel/ucseo/models/opengraphrule/fields.yaml
+        list: $/unrebel/ucseo/models/opengraphrule/columns.yaml
+    view:
+        list: $/unrebel/ucseo/models/opengraphrule/columns.yaml
+        toolbarButtons: create|delete

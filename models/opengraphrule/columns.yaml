@@ -1,0 +1,9 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    property:
+        label: unrebel.ucseo::lang.fields.og_property
+    content:
+        label: unrebel.ucseo::lang.fields.og_content
