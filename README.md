@@ -47,4 +47,4 @@ _As this plugin tries to be "User Centered", keywords are not included. This is 
 _No._
 
 **Wow! X breaks when I do Y! You suck!**
-_Unfortunately, I'm merely human. Please (https://github.com/CptMeatball/oc-ucseo-plugin/issues/new)[submit an issue]._
+_Unfortunately, I'm merely human. Please [submit an issue](https://github.com/CptMeatball/oc-ucseo-plugin/issues/new)._
