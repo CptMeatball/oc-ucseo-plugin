@@ -29,6 +29,7 @@ return [
         'twt_title' => 'Twitter Title',
         'twt_description' => 'Twitter Description',
         'twt_images' => 'Twitter Image(s)',
+        'visualizer' => 'Google Search Visualization'
 
     ],
     'tabs'      => [

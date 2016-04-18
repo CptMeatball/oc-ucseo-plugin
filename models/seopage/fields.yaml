@@ -13,7 +13,13 @@ fields:
         label: unrebel.ucseo::lang.fields.meta_description
         tab: unrebel.ucseo::lang.tabs.meta
         type: textarea
-        size: tiny
+        size: small
+        span: left
+    seo_visualizer:
+        label: unrebel.ucseo::lang.fields.visualizer
+        type: partial
+        path: $/unrebel/ucseo/models/seopage/visualizer/_seo_visualizer.htm
+        span: right
 tabs:
     fields:
         doc_og_title:
@@ -64,7 +70,7 @@ tabs:
         doc_rules:
             label: name:space
             type: partial
-            path: $/unrebel/ucseo/models/seopage/docs/_og_type_field.htm
+            path: $/unrebel/ucseo/models/seopage/docs/_og_rules_field.htm
             tab: unrebel.ucseo::lang.tabs.og
             span: right
         rules:

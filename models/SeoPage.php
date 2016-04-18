@@ -9,6 +9,20 @@ class SeoPage extends Model
 {
 
     /**
+     * @var array Softly implement Translatable behavior.
+     */
+    public $implement = ['@RainLab.Translate.Behaviors.TranslatableModel'];
+
+    /**
+     * @var array Translatable fields.
+     */
+    public $translatable = ['title',
+                            'description',
+                            'og_title',
+                            'og_description',
+                            'twt_title',
+                            'twt_description'];
+    /**
      * @var string The database table used by the model.
      */
     public $table = 'unrebel_ucseo_seo_pages';

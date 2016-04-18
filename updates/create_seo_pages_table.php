@@ -12,6 +12,7 @@ class CreateSeoPagesTable extends Migration
         {
             $table->engine = 'InnoDB';
             $table->increments('id');
+            $table->integer('page_id');
             $table->string('title');
             $table->string('url');
             $table->string('description');

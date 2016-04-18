@@ -27,8 +27,13 @@ class SeoPages extends Controller
 
         BackendMenu::setContext('Unrebel.Ucseo', 'ucseo', 'seopages');
         $this->addCss('/plugins/unrebel/ucseo/assets/css/bootstrap.alerts.css');
+        $this->addCss('/plugins/unrebel/ucseo/assets/css/alerts.custom.css');
         $this->addCss('/plugins/unrebel/ucseo/assets/css/meta.validation.css');
+        $this->addCss('/plugins/unrebel/ucseo/assets/css/meta.visualizer.css');
         $this->addJs('/plugins/unrebel/ucseo/assets/js/meta.validation.js');
+        $this->addJs('/plugins/unrebel/ucseo/assets/js/meta.visualizer.js');
+        $this->addJs('/plugins/unrebel/ucseo/assets/js/forms.input.js');
+
     }
 
     public function onGeneratePages(){
@@ -36,6 +41,7 @@ class SeoPages extends Controller
 
       foreach($pages as $page){
         $seopage = SeoPage::where('title', $page->title)->where('url', $page->url)->get();
+
         if($seopage->isEmpty()){
           unset($seopage);
           $seopage = new SeoPage();
