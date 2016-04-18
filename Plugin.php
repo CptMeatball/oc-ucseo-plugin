@@ -20,7 +20,7 @@ class Plugin extends PluginBase
             'name'        => 'unrebel.ucseo::lang.plugin.name',
             'description' => 'unrebel.ucseo::lang.plugin.description',
             'author'      => 'unrebel',
-            'icon'        => 'icon-leaf'
+            'icon'        => 'icon-shield'
         ];
     }
 

@@ -8,8 +8,8 @@ class UserSeo extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name'        => 'UserSeo Component',
-            'description' => 'No description provided yet...'
+            'name'        => 'UC Seo Standard',
+            'description' => 'Provides extensive SEO and SM tags.'
         ];
     }
 
