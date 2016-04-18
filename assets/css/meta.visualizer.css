@@ -1,0 +1,32 @@
+.google-search-holder{
+  background-color: white;
+  font-family: arial;
+  padding: 15px 10px;
+}
+
+.google-search-title {
+  color: #1a0dab;
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.google-search-title:hover{
+  text-decoration: underline;
+}
+
+.google-search-url{
+  font-style: normal;
+  font-size: 14px;
+  color: #006621;
+}
+
+.google-search-description {
+  color: #545454;
+  line-height: 1.4;
+  word-wrap: break-word;
+  font-size: small;
+  padding: 0;
+  margin: 0;
+}
