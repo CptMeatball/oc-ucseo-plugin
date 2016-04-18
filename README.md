@@ -26,3 +26,25 @@ Ready for v1.0 deployment. Writing documentation.
 
 ## Installation
 Install plugin through the OctoberCMS marketplace.
+
+## Usage
+1. Place the *UC SEO* component in your layout, inside the ````<head>```` tag.
+2. Go to SEO section inside OctoberCMS.
+3. Press _Generate SEO pages_
+4. Fill in the fields.
+
+## FAQ
+**Will this break when I change my URLs?**
+_Yes it most certainly will. UC SEO references the URL that is accessed and compares it to entries in the database. So yeah, you change the URL, you break the SEO. So update your URLs in the SEO section!_
+
+**Does this support Translatable plugin?**
+_Yup!_
+
+**Why aren't there any keywords?**
+_As this plugin tries to be "User Centered", keywords are not included. This is because most users will stuff the entire section full of awfulness, which doesn't help just one bit._
+
+**Will keywords ever be included?**
+_No._
+
+**Wow! X breaks when I do Y! You suck!**
+_Unfortunately, I'm merely human. Please (https://github.com/CptMeatball/oc-ucseo-plugin/issues/new)[submit an issue]._
